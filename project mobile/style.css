@@ -1,0 +1,140 @@
+@font-face {
+    font-family: iransans;
+    src: url(./font/IRANSansWeb\(FaNum\).ttf);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    direction: rtl;
+    font-size: 16px;
+    font-family: 'iransans';
+    min-width: 414px;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #117C6F;
+    margin-bottom: 20px;
+}
+
+.navbar .container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.navbar p {
+    justify-content: center;
+    margin: auto;
+    font-size: 15px;
+    color: #fff;
+}
+.navbar svg {
+    margin-right: 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 15px;
+
+}
+
+.header{
+    margin-bottom: 25px;
+}
+
+
+.header img {
+    margin-left: 5px;
+}
+
+
+.header p {
+    font-size: 28px;
+    position: absolute;
+    margin: 50px 20px;
+}
+
+.bor {
+    height: 2px;
+    background-color: #0E655B;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.boxes .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 20px;
+    margin: 20px;
+}
+
+.box {
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    display: flex;
+    height: 120px;
+    padding: 13px 23px 23px 15px;
+}
+
+
+.box5 , .box6 {
+    display: grid;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 20px 20px;
+    height: 120px;
+    grid-column: 1/-1;
+}
+
+p.title {
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+
+p span {
+    font-size: 15px;
+}
+.title5 , .title6 {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(4 , auto);
+    grid-template-rows: repeat(4 , auto);
+}
+
+.title {
+    grid-column: 1/5;
+    grid-row: 2/5;
+}
+
+    
+.box img {
+    grid-column: 4/5;
+    grid-row: 1/3;
+
+}
+
+.box5 , .box6{
+    display: grid;
+    grid-template-rows: repeat(10, auto);
+    grid-template-columns: repeat(10, auto);
+}
+
+.box5 img , .box6 img{
+    grid-column: 9/10;
+    width: 80px;
+}
+
+
+
