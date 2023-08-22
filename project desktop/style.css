@@ -1,0 +1,280 @@
+@font-face {
+    font-family: iransans;
+    src: url(./font/IRANSansWeb\(FaNum\).ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    font-family: 'iransans';
+}
+
+.section1 {
+    height: 558px;
+    padding-top: 60px;
+
+}
+.big-cont {
+    display: flex;
+    justify-content:center;
+
+}
+.cont{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 23px;
+    align-items: center;
+    justify-content:center;
+}
+
+.right{
+    grid-column: 1/span 6;
+}
+.left {
+    grid-column:7/span 6 ;
+
+}
+.logo-drhome {
+    margin-bottom: 30px;
+}
+.right p {
+    font-size: 25px;
+}
+
+.arrow-r{
+    padding-right: 136px;
+    padding-left: 20px;
+
+} 
+
+.arrow-l {
+    padding-left: 136px;
+    padding-right: 20px;
+}
+.dot {
+    text-align: center;
+}
+.dot img{
+    text-align: center;
+    width: 80px;
+    height: 20px;
+    margin-top: 15px;
+}
+.section2 {
+    
+    height: 758px;
+    background-color: #f2f2f2;
+    padding-top:143px;
+}
+
+.section2 .cont {
+    width: 100%;
+}
+
+
+.section2 p {
+    grid-column: 2/-1;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.box2 , .box5 {
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    height: 190px;
+    padding: 13px 23px 23px 15px;
+    grid-column: 6/9;
+    background-color: #fff;
+    
+}
+
+.box3 , .box6 {
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    height: 190px;
+    padding: 13px 23px 23px 15px;
+    grid-column: 9/12;
+    background-color: #fff;
+    
+}
+
+.box1 , .box4 {
+    display: grid;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 20px 20px;
+    height: 190px;
+    grid-column: 2/6;
+    background-color: #fff;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(4 , auto);
+    grid-template-rows: repeat(4 , auto);
+    margin: 15px;
+}
+
+.box img {
+    grid-column: 4/5;
+    grid-row: 1/3;
+
+}
+.box .title {
+    grid-column: 1/5;
+    grid-row: 3;
+}
+.box p{
+    font-size: 18px;
+}
+.box span   {
+    font-size:18px;
+}
+
+.big-box {
+    display: grid;
+    grid-template-columns: repeat(4 , auto);
+    grid-template-rows: repeat(4 , auto);
+    align-items: center;
+}
+.big-box p {
+    font-size: 16px;
+}
+
+.big-box img {
+    grid-column: 5;
+    grid-row: 1;
+}
+.big-box span {
+    font-size: 20px;
+}
+
+.section3 {
+    height: 766px;
+    padding: 147px 137px;
+    padding-bottom: 180px;
+}
+
+.right .titile-section3 {
+    font-size: 30px;
+    line-height: 4;
+}
+.right .pragraph-section3 {
+    font-size: 16px;
+    height: 370px;
+    color: #707070;
+    line-height: 2.5;
+}
+
+.section3 .right {
+    grid-column: 1/ span 6;
+    
+}
+
+.section3 .left {
+    grid-column: 7/span 6;
+}
+
+.pragharph {
+    height: 370px;
+}
+
+.cont4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 72px;
+}
+
+.section4 {
+    height:760px;
+    background-color: #f2f2f2;
+    padding: 136px;
+    padding-top: 75px;
+}
+.section4 .cont4 {
+    padding-bottom: 70px;
+}
+
+.box1-1 {
+    height: 290px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    grid-column: 1/2;
+    border-radius: 60px;
+
+}
+
+.box1-2 {
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    grid-column: 2/3;
+    border-radius: 60px;
+}
+
+.box1-3 {
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    grid-column: 3/4;
+    border-radius: 60px;
+}
+
+.call-us {
+    grid-column: 1/3;
+    font-size: 30px;
+    padding: 42px 0;
+}
+
+.boxes {
+    height: 207px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 50px;
+    grid-template-columns: repeat(12, 1fr);
+    display: grid;
+    grid-column: 1/4;
+    align-items: center;
+}
+.boxes span {
+    font-size: 13px;
+    color: #707070;
+}
+
+.boxes1{
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+}
+.boxes2{
+    grid-column: 4/7;
+    display: flex;
+    align-items: center;
+}
+.boxes3{
+    grid-column: 7/10;
+    display: flex;
+    align-items: center;
+}
+.boxes4{
+    grid-column: 10/13;
+    display: flex;
+    align-items: center;
+}
+.boxes img {
+    width: 55px;
+    padding-left: 15px;
+    
+}
+
+.boxes1 img {
+    margin-right: 50px;
+}
+
+
+
