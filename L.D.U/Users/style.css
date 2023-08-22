@@ -1,0 +1,58 @@
+@font-face {
+    font-family: behnama;
+    src: url(./font/kalame.ttf)
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#f2f2f2;
+    font-family: behnama;
+    direction: rtl;
+}
+
+.containerU {
+    width: 900px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.856);
+    margin: 100px auto;
+    border-radius: 10px;
+    padding:35px 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    
+}
+
+
+.tableU table {
+    border: 1px solid black;
+    padding: 0;
+    width: 100%;
+}
+
+
+table th , table td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+
+td img {
+    width: 18px;
+    margin: 2px 15px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+tr:nth-child(even):hover {
+    background-color: #691b9a36;
+}
+tr:nth-child(odd):hover {
+    background-color: #691b9a36;
+}
+

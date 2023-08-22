@@ -1,0 +1,150 @@
+@font-face {
+    font-family: behnama;
+    src: url(./font/kalame.ttf)
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#f2f2f2;
+    font-family: behnama;
+    direction: rtl;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+
+.containerD {
+    width: 900px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.856);
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 10px;
+    padding:35px 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.icon {
+    padding-top: 5px;
+    margin: auto;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.icon img {
+    height: 100px;
+}
+
+.icon span {
+    font-family: var(--bs-font-sans-serif);
+}
+
+.color1 {
+    color: #E91E63;
+}
+
+.color2 {
+    color: #5EC8D7;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-color: #f2f2f2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    grid-row: 2;
+    text-align: right;
+    padding: 15px;
+}
+
+.box span {
+    font-size:18px ;
+    color: #000;
+}
+
+.box .span2 {
+    padding-right: 20px;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+.divpm {
+    grid-column: 2;
+    grid-row: 4;
+    display: flex;
+    margin: auto;
+    padding-top:30px;
+}
+
+input[type="submit"] {
+    border: 0;
+    outline: 0;
+    background: #6A1B9A;
+    width: 80px;
+    height: 30px;
+    font-size: 13px;
+    font-family: behnama;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    margin: auto 10px;
+}
+
+input[type="submit"]:hover {
+    color: #000;
+    background-color: #8c23ce;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media (max-width:930px ) {
+    .containerD {
+        /* display: flex;
+        flex-direction: column; */
+        width: 700px;
+        height: 450px;
+        padding: 20px 50px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .box {
+        width: 180px;
+        height: 180px;
+    }
+
+}
+@media (max-width:780px ) {
+    .containerD {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 1200px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .box {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width:375px ) {
+    .containerD {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 1200px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .box {
+        width: 200px;
+        height: 200px;
+    }
+}
